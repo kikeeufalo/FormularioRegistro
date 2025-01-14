@@ -1,0 +1,107 @@
+@media (max-width: 500px) {
+
+    body {
+        height: auto;
+        width: 100%;
+    }
+
+    .container {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        display: flex;
+        height: auto;
+        width: 100%;
+        top: 100px;
+    }
+
+    .titulo {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 30pt;
+        padding: 5px;
+    }
+
+    .sub-titulo {
+        font-family: helvetica;
+        font-weight: 500;
+        font-size: 12pt;
+        padding: 5px;
+    }
+
+    .containerF1 {
+        position: relative;
+        flex-direction: column;
+        margin-top: 20px;
+        display: flex;
+        height: auto;
+        width: 100%;
+    }
+
+    .input-container {
+        position: relative;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .input-container input {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 16px;
+        border: none;
+        border-bottom: 2px solid gray;
+        background: none;
+        outline: none;
+        resize: none;
+    }
+
+    label {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 16px;
+        color: gray;
+        transition: all 0.3s ease-in-out;
+        pointer-events: none;
+    }
+
+    .input-container input:focus + label,
+    .input-container input:valid + label {
+        top: -20px;
+        font-size: 12pt;
+        color: blue;
+    }
+
+    label:hover {
+        cursor: pointer;
+    }
+
+    .containerF1 input:hover {
+        cursor: text;
+        background-color: rgba(128, 128, 128, 0.1);
+    }
+
+    .containerF1 input:focus {
+        background-color: rgba(128, 128, 128, 0.1);
+        border-color: rgb(116, 163, 46);
+        outline: none;
+    }
+
+    .checkbox {
+        margin: 5px;
+    }
+
+    .termos {
+        font-size: 13pt;
+        margin-top: 5px;
+        height: auto;
+        padding: 3px;
+    }
+
+    .input-btn-submit {
+        padding: 6px;
+        width: 100%;
+    }
+
+}
