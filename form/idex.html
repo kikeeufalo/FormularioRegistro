@@ -1,34 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pesquisa Form</title>
 </head>
+
 <body>
     <div class="container">
-        <form action="#" autocomplete="off" >
-            <h1>Pesquisa Form</h1>
-            <p>Deixe seu feedback aqui.</p>
+        <form action="#" autocomplete="off">
+            <h1 class="titulo">Pesquisa Form</h1>
+            <p class="sub-titulo">Deixe seu feedback aqui.</p>
 
             <div class="containerF1">
-                <label for="nome">Nome:</label>
-                <input id="nome" type="text">
+                <div class="input-container">
+                    <input id="nome" type="text" required>
+                    <label for="nome">Nome:</label>
+                </div>
 
-                <label for="email">E-mail:</label>
-                <input id="email" type="email">
+                <div class="input-container">
+                    <input id="email" type="email" required>
+                    <label for="email">E-mail:</label>
+                </div>
                 
-                <label for="telefone">Telefone:</label>
-                <input id="telefone" type="tel">
-
-                <label for="comentario">Comentario:</label>
-                <textarea id="comentario"></textarea>
-
-                <input type="checkbox"><p>Concordo com os <a href="#">termos</a> estabelecidos.</p>
+                <div class="input-container">
+                    <input id="telefone" type="tel" required>
+                    <label for="telefone">Telefone:</label>
+                </div>
+                <div class="input-container">
+                    <textarea id="comentario" required></textarea>
+                    <label for="comentario">Comentario:</label>
+                </div>
             </div>
+
+            <p class="termos"><input type="checkbox" class="checkbox">Concordo com os <a href="#">termos</a>
+                estabelecidos.</p>
 
             <input class="input-btn-submit" type="submit" value="Enviar">
         </form>
     </div>
 </body>
+
 </html>
