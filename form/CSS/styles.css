@@ -91,10 +91,19 @@
     .input-checkbox {
         width: 100%;
         position: relative;
+        display: flex;
+        justify-content: center;
     }
 
     .container-input-check {
-        margin: 20px;
+        min-width: 100px;
+        padding: 5px;
+        vertical-align: middle;
+    }
+
+    .container-input-check label {
+        font-size: 18px;
+        font-family: arial;
     }
 
     .termos {
