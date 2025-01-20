@@ -101,6 +101,22 @@
         vertical-align: middle;
     }
 
+    .input-textarea textarea {
+        border: 2px solid gray;
+        border-radius: 3px;
+        padding: 5px;
+        font-size: 14px;
+        font-family: sans-serif;
+        min-width: 100%;
+        min-height: 100px;
+        
+    }
+
+    .input-textarea label {
+        font-size: 16px;
+        font-family: arial;
+    }
+
     .container-input-check label {
         font-size: 18px;
         font-family: arial;
