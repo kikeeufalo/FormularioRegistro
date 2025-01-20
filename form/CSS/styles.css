@@ -7,13 +7,11 @@
 
     .container {
         justify-content: center;
-        align-items: center;
         text-align: center;
-        position: relative;
+        align-items: center;
         display: flex;
-        height: auto;
+        height: 100vh;
         width: 100%;
-        top: 100px;
     }
 
     .titulo {
@@ -109,7 +107,7 @@
         font-family: sans-serif;
         min-width: 100%;
         min-height: 100px;
-        
+        max-width: 0;
     }
 
     .input-textarea label {
