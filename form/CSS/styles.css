@@ -45,7 +45,7 @@
 
     .input-container input {
         width: 100%;
-        padding: 10px 0;
+        padding: 10px 0 2px 6px;
         font-size: 16px;
         border: none;
         border-bottom: 2px solid gray;
@@ -99,22 +99,37 @@
         vertical-align: middle;
     }
 
+    .input-textarea {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .input-textarea label {
+        font-size: 16px;
+        color: gray;
+        text-align: left;
+        padding: 5px 0px 3px 10px;
+    }
+
+    
     .input-textarea textarea {
         border: 2px solid gray;
+        outline: none;
         border-radius: 3px;
         padding: 5px;
-        font-size: 14px;
+        font-size: 16px;
         font-family: sans-serif;
         min-width: 100%;
         min-height: 100px;
         max-width: 0;
+        transition: all 0.3s ease-in-out;
     }
-
-    .input-textarea label {
-        font-size: 16px;
-        font-family: arial;
+    
+    .input-textarea textarea:focus {
+        border-color: rgb(116, 163, 46);
+        background-color: rgba(128, 128, 128, 0.1);
     }
-
+    
     .container-input-check label {
         font-size: 18px;
         font-family: arial;
