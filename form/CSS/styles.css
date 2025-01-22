@@ -124,7 +124,7 @@
         transition: all 0.3s ease-in-out;
     }
     
-    /* TODO terminar de fazer o textarea */
+    /* TODO terminar de fazer o textarea, o estilo é i label dele */
     .input-textarea textarea:focus + label {
         color: blue;
         border: 2px solid rgb(116, 163, 46);
