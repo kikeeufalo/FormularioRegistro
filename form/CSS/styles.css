@@ -128,7 +128,6 @@
     }
     
     .input-textarea textarea:focus {
-        color: blue;
         border: 2px solid rgb(116, 163, 46);
         background-color: rgba(128, 128, 128, 0.1);
     }
