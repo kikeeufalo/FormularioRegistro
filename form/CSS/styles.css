@@ -102,6 +102,7 @@
     .input-textarea {
         display: flex;
         flex-direction: column;
+        position: relative;
     }
     
     .input-textarea label {
@@ -109,6 +110,7 @@
         color: gray;
         text-align: left;
         padding: 5px 0px 3px 10px;
+        position: absolute;
     }
     
     .input-textarea textarea {
@@ -122,13 +124,17 @@
         min-height: 100px;
         max-width: 0;
         transition: all 0.3s ease-in-out;
+        margin-top: 30px;
     }
     
-    /* TODO terminar de fazer o textarea*/
-    .input-textarea textarea:focus + label {
+    .input-textarea textarea:focus {
         color: blue;
         border: 2px solid rgb(116, 163, 46);
         background-color: rgba(128, 128, 128, 0.1);
+    }
+
+    .input-textarea textarea:focus + label {
+        color: red;
     }
     
     .container-input-check label {
