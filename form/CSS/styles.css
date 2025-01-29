@@ -104,6 +104,7 @@
         flex-direction: column;
         position: relative;
     }
+
     
     .input-textarea label {
         font-size: 16px;
@@ -132,24 +133,28 @@
         border: 2px solid rgb(116, 163, 46);
         background-color: rgba(128, 128, 128, 0.1);
     }
-
+    
     .input-textarea textarea:focus + label {
         color: blue;
         font-size: 16.5px;
+    }
+    
+    .input-textarea textarea:hover {
+        background-color: rgba(128, 128, 128, 0.1);
     }
     
     .container-input-check label {
         font-size: 18px;
         font-family: arial;
     }
-
+    
     .termos {
         font-size: 13pt;
         margin-top: 5px;
         height: auto;
         padding: 3px;
     }
-
+    
     .input-btn-submit {
         padding: 6px;
         width: 100%;
