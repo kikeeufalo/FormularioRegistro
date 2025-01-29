@@ -111,6 +111,7 @@
         text-align: left;
         padding: 5px 0px 3px 10px;
         position: absolute;
+        transition: all 0.3s ease-in-out;
     }
     
     .input-textarea textarea {
@@ -133,7 +134,8 @@
     }
 
     .input-textarea textarea:focus + label {
-        color: red;
+        color: blue;
+        font-size: 16.5px;
     }
     
     .container-input-check label {
