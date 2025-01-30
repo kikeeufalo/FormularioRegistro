@@ -149,6 +149,12 @@
         font-family: arial;
     }
     
+    .container-termos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
     .termos {
         font-size: 14px;
         margin-top: 5px;
@@ -159,6 +165,9 @@
     .input-btn-submit {
         padding: 6px;
         width: 100%;
+        letter-spacing: 1px;
+        font-weight: 600;
+        font-size: 15px;
     }
 
 }
