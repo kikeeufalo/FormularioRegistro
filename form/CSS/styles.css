@@ -150,14 +150,17 @@
     }
     
     .container-termos {
-        
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
     }
     
     /* TODO Alinhar verticalmente os termos com a caixinha */
     
     .termos {
         font-size: 14px;
-        margin-top: 5px;
         height: auto;
         padding: 3px;
     }
