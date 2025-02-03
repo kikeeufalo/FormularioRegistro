@@ -169,6 +169,15 @@
         letter-spacing: 1px;
         font-weight: 600;
         font-size: 15px;
+        background-color: rgb(116, 163, 46);
+        border: none;
+        transition: all .5s ease-in-out;
+    }
+
+    .input-btn-submit:hover {
+        cursor: pointer;
+        transform: scale(1.03);
+        box-shadow: 2px 2px 5px black;
     }
 
 }
