@@ -180,4 +180,9 @@
         box-shadow: 2px 2px 5px black;
     }
 
+
+    input[type="checkbox"]:hover, input[type="radio"]:hover {
+        cursor: pointer;
+    }
+
 }
