@@ -185,4 +185,9 @@
         cursor: pointer;
     }
 
+    .link-termos {
+        text-decoration: none;
+        color: rgb(63, 93, 18);
+    }
+
 }
